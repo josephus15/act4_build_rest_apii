@@ -19,5 +19,5 @@ app.use(cors())
 app.use(helmet())
 
 app.listen(PORT, () => {
-    console.log('Server is listening on port ${PORT}')
+    console.log(`Server is listening on port ${PORT}`)
 })
